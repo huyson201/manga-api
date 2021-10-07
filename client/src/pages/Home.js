@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React from "react";
+import ListComic from "../components/ListComic/ListComic";
 
-export default class Home extends Component {
-    render() {
-        return (
-            <div>
-                Home page
-            </div>
-        )
-    }
+const Home = () => {
+  return (
+    <div>
+      <ListComic/>
+    </div>
+  )
 }
+
+export default Home
